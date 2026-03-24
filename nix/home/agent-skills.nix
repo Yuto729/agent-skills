@@ -16,6 +16,7 @@
       "check-tasks"
       "create-issue"
       "export-pr-review"
+      "git-wt"
       "gemini-search"
       "job-hunting"
       "learning-journal"
