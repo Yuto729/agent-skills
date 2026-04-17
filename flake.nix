@@ -7,8 +7,7 @@
 
   outputs = { self, agent-skills, ... }: {
     homeManagerModules = {
-      default = {
-      };
+      default = { imports = [ agent-skills.homeManagerModules.default ./nix/home/agent-skills.nix ]; };
       agent-skills = self.homeManagerModules.default;
     };
   };
