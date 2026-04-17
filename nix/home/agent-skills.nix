@@ -27,8 +27,6 @@
       "learning-journal"
     ];
 
-    skills.enableAll = [ "superpowers" ];
-
     targets.claude.enable = true;
   };
 }
