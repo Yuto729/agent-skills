@@ -1,4 +1,4 @@
-{ superpowers, ... }:
+{ ... }:
 {
   programs.agent-skills = {
     enable = true;
@@ -6,11 +6,6 @@
     sources = {
       yuto729 = {
         path = ../../.;
-        subdir = "skills";
-        filter.maxDepth = 1;
-      };
-      superpowers = {
-        path = superpowers;
         subdir = "skills";
         filter.maxDepth = 1;
       };

@@ -5,7 +5,7 @@
     agent-skills.url = "github:Kyure-A/agent-skills-nix";
   };
 
-  outputs = { self, agent-skills, superpowers, ... }: {
+  outputs = { self, agent-skills, ... }: {
     homeManagerModules = {
       default = {
       };
