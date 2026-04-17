@@ -8,10 +8,6 @@
   outputs = { self, agent-skills, superpowers, ... }: {
     homeManagerModules = {
       default = {
-        imports = [
-          agent-skills.homeManagerModules.default
-          (import ./nix/home/agent-skills.nix { inherit superpowers; })
-        ];
       };
       agent-skills = self.homeManagerModules.default;
     };
