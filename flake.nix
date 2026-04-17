@@ -3,10 +3,6 @@
 
   inputs = {
     agent-skills.url = "github:Kyure-A/agent-skills-nix";
-    superpowers = {
-      url = "github:obra/superpowers";
-      flake = false;
-    };
   };
 
   outputs = { self, agent-skills, superpowers, ... }: {
