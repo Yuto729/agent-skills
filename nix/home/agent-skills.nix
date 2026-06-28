@@ -20,5 +20,6 @@
     ];
 
     targets.claude.enable = true;
+    targets.codex.enable = true;
   };
 }
