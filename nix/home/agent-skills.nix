@@ -15,11 +15,8 @@
       "check-calendar"
       "check-mail"
       "check-tasks"
-      "create-issue"
       "export-pr-review"
       "git-wt"
-      "job-hunting"
-      "learning-journal"
     ];
 
     targets.claude.enable = true;
