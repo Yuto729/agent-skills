@@ -47,7 +47,7 @@ home-manager switch --flake ~/.config/home-manager#${USER} --impure
 
 ```bash
 cd ~/.config/home-manager
-nix flake lock --update-input agent-skills
+nix flake update agent-skills
 home-manager switch --flake ~/.config/home-manager#${USER} --impure
 ```
 
